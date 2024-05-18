@@ -1,10 +1,98 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project Front Page</title>
+    <style>
+        /* Add the CSS provided above here */
+        .header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.header-image {
+    width: 100%;
+    height: auto;
+}
+.summary {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.team-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.team-member {
+    flex: 1 1 21%;
+    margin: 10px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+}
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+    </style>
 </head>
 <body>
+    <div class="header">
+        <img src="path/to/your/image.jpg" alt="Project Image" class="header-image">
+        <div class="summary">
+            <h1>Project Title</h1>
+            <p>A brief summary of the project, highlighting its purpose and significance.</p>
+        </div>
+    </div>
     
+    <div class="about-section">
+        <h2>About the Project</h2>
+        <p>This section provides a more detailed description of the project, its objectives, key features, and benefits. Include enough information to give visitors a clear understanding of what the project is about and why it's important.</p>
+    </div>
+
+    <div class="team-section">
+        <h2>Meet the Team</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="path/to/member1.jpg" alt="Member 1">
+                <h3>Member 1</h3>
+                <p>Small text blurb about Member 1. Highlight their role, background, and contributions to the project.</p>
+            </div>
+            <div class="team-member">
+                <img src="path/to/member2.jpg" alt="Member 2">
+                <h3>Member 2</h3>
+                <p>Small text blurb about Member 2. Highlight their role, background, and contributions to the project.</p>
+            </div>
+            <div class="team-member">
+                <img src="path/to/member3.jpg" alt="Member 3">
+                <h3>Member 3</h3>
+                <p>Small text blurb about Member 3. Highlight their role, background, and contributions to the project.</p>
+            </div>
+            <div class="team-member">
+                <img src="path/to/member4.jpg" alt="Member 4">
+                <h3>Member 4</h3>
+                <p>Small text blurb about Member 4. Highlight their role, background, and contributions to the project.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
